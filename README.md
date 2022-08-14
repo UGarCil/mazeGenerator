@@ -1,7 +1,7 @@
 # mazeGenerator
 maze generator using recursive backtracking and a population of agents to explore the tile set
 
-The program is divided in three main tasks:
+The program is divided in the following sequential steps:
 1. maze generation using backtracking
 2. extrapolation of the resulting matrix into a 2D array of ASCII characters
 3. use of the 2D array of ASCII characters to produce a tileset
