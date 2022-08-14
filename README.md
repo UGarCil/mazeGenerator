@@ -1,12 +1,11 @@
 # mazeGenerator
 maze generator using recursive backtracking and a population of agents to explore the tile set
 
-Maze generation with translation to ASCII
+The program is divided in three main tasks:
+1. maze generation using backtracking
+2. extrapolation of the resulting matrix into a 2D array of ASCII characters
+3. use of the 2D array of ASCII characters to produce a tileset
+4. use of the tileset by a set of agents that navigate the space using backtracking
 
-Produce a maze, then increase the dimensionality of the array to allocate new cells for each of the walls.
-1. Duplicate the dimensions of a given grid
-2. For each cell in the grid, fill with an O
-3. If a cell has a given wall filled with a line (wall), then place an X to the direction of that neighbor relative to the position of the cell
-4. Return the maze as a list of strings
 
 ![alt text](https://github.com/UGarCil/mazeGenerator/blob/main/demo.gif?raw=true)
