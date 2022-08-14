@@ -13,7 +13,7 @@ DIMS = (80,40)  #The dimensions of the final maze will be twice as big as these 
 # DIMS = (10,10)
 RES = 8
 FPS = 30
-TILESETNAME = "tileset_4_agent"
+TILESETNAME = "tileset"
 # DD. CHAR
 # char = str
 # interp. a wall or empty space for the position of a tile in a maze. Is one of:
